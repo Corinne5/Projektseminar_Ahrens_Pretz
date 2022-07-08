@@ -177,9 +177,9 @@ def histogram(diff, stadt, stadt_knn):
     ax2.set_xticks([-5,-4, -3, -2, -1, 0, 1,2,3,4])
     ax2.tick_params(axis='both', which='major', labelsize=18)
     ax2.tick_params(axis='both', which='minor', labelsize=18)
-    plt.title(f'Vorhersage für {stadt} auf Grundlage des KNN {stadt_knn}',fontsize=20)
-    plt.xlabel('Differenz zur tatsächlichen Unfallanzahl', fontsize=18)
-    plt.ylabel('Anzahl', fontsize=18)
+    plt.title(f'Vorhersage für {stadt} auf Grundlage des KNN {stadt_knn}',fontsize=30)
+    plt.xlabel('Differenz zur tatsächlichen Unfallanzahl', fontsize=30)
+    plt.ylabel('Anzahl', fontsize=30)
     ax2.hist(diff, bins=[-5,-4.5,-4,-3.5,-2.5,-1.5,-0.5,0.5,1.5,2.5,3.5,4,4.5])
     plt.show()
     
