@@ -19,7 +19,7 @@ def poly_reg_months():
 
     '''
     # Daten einlesen
-    df = pd.read_csv("Unfallorte2016.csv", sep = ";")
+    df = pd.read_csv("../Daten/Input/Unfallorte2016.csv", sep = ";")
     
     df = df.loc[df["ULAND"] == 7]
     df = df.loc[df["UREGBEZ"] == 3]

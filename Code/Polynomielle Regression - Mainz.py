@@ -22,7 +22,7 @@ def poly_reg_days():
 
     '''
     # Daten einlesen
-    df = pd.read_csv("Unfall_Trainingsdaten.csv", sep = ",")
+    df = pd.read_csv("../Daten/Output/Unfall_Trainingsdaten.csv", sep = ",")
     
     # Spalten umbenennen
     df = df.rename(columns = {"0": "Jahr"})
